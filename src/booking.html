@@ -14,6 +14,110 @@
   <title>Booking Page</title>
 </head>
 <body>
-  
+  <header class="py-6">
+    <div class="flex items-center justify-center">
+      <h1 class="text-2xl leading-[36px] font-medium">
+        <span class="text-primary-100">Stay</span>cation.
+      </h1>
+    </div>
+  </header>
+  <main>
+
+     <!-- divider -->
+     <div class="w-full h-[1px] bg-secondary-100"></div>
+ 
+     <section class="wrapper p-6">
+      <div class="flex items-center justify-center">
+        <!-- Step 1 -->
+        <div class="flex flex-col items-center">
+          <div class="w-10 h-10 rounded-full border border-black flex items-center justify-center bg-gray-300">
+            <div class="w-8 h-8 flex items-center justify-center rounded-full bg-white text-gray-400 font-bold">
+              1
+            </div>
+          </div>
+        </div>
+        <!-- Line -->
+        <div class="w-16 h-1 bg-gray-300"></div>
+    
+        <!-- Step 2 -->
+        <div class="flex flex-col items-center">
+          <div class="flex items-center justify-center w-10 h-10 rounded-full bg-gray-300 text-gray-400 font-bold">
+            2
+          </div>
+        </div>
+        <!-- Line -->
+        <div class="w-16 h-1 bg-gray-300"></div>
+    
+        <!-- Step 3 -->
+        <div class="flex flex-col items-center">
+          <div class="flex items-center justify-center w-10 h-10 rounded-full bg-gray-300 text-gray-400 font-bold">
+            3
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center py-6">
+        <h1 class="text-[2.625rem] leading-[63px] font-semibold text-primary">Booking Information</h1>
+        <p class="text-lg font-light text-secondary">Please fill up the blanks field below </p>
+      </div>
+    </section>
+
+    <!-- Booking Information section -->
+     <section class="wrapper py-4">
+      <div class="flex  space-x-32">
+        <div>
+            <img src="./public/asset/Cashville-Image.svg" alt="Cashville-Image" class="w-[420px] h-[270px] object-cover">
+
+            <div class="flex items-center justify-between ">
+              <div>
+                <h2 class="text-xl leading-[30px] font-medium">Cashville</h2>
+                <p class="text-[0.938rem] leading-[22.5px] text-secondary">Kemang, Indonesia</p>
+              </div>
+              <div>
+                <h2 class="text-xl leading-[30px] font-medium">Cashville</h2>
+                <p class="text-[0.938rem] leading-[22.5px] text-secondary">Kemang, Indonesia</p>
+              </div>
+            </div>
+        </div>
+       <!-- divider -->
+     <div class="h-[502px] border-[2px] border-secondary"></div>
+        
+      <!-- input -->
+       <div>
+        <div>
+        <label for="firstName" class="text-lg leading-[30.6px]">First Name</label>
+        <div class="pt-2">
+        <input type="text" name="firstName" id="firstName" placeholder="Ihsan" class="w-[320px] bg-secondary-300 p-4">
+      </div>
+        </div>
+        <div class="pt-2">
+        <label for="lastName" class="text-lg leading-[30.6px]">Last Name</label>
+        <div class="pt-2">
+        <input type="text" name="lastName" id="lastName" placeholder="Adi" class="w-[320px] bg-secondary-300 p-4">
+      </div>
+        </div>
+        <div class="pt-2">
+        <label for="email" class="text-lg leading-[30.6px]">Email Address</label>
+        <div class="pt-2">
+        <input type="email" name="email" id="email" placeholder="bwa@class.com" class="w-[320px] bg-secondary-300 p-4">
+      </div>
+        </div>
+        <div class="pt-2">
+        <label for="phone" class="text-lg leading-[30.6px]">Phone Number</label>
+        <div class="pt-2">
+        <input type="tel" name="phone" id="phone" placeholder="0812735810231" class="w-[320px] bg-secondary-300 p-4">
+      </div>
+        </div>
+      </div>
+
+
+      </div>
+      <div class="flex flex-col items-center justify-center pt-10">
+        <button class="btn">Contonue to Book</button>
+        <button class="bg-secondary py-2 px-14 text-gray-500 rounded-sm shadow-2xl  mt-4">Cancel</button>
+      </div>
+     </section>
+    
+</main>
 </body>
 </html>
