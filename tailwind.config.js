@@ -17,6 +17,10 @@ module.exports = {
           100: "#E5E5E5",
           200: "#FF498B",
         },
+      green: {
+           DEFAULT: "#1ABC9C"
+      }
+     
        
       },
     },

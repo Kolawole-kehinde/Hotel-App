@@ -14,6 +14,38 @@
     <title>Details Page</title>
   </head>
   <body class="font-poppins">
+    <!-- Header -->
+    <header class="py-6">
+      <nav class="wrapper flex items-center justify-between">
+        <!-- left side -->
+        <div>
+          <h1 class="text-2xl leading-[36px] font-medium">
+            <span class="text-primary-100">Stay</span>cation.
+          </h1>
+        </div>
+
+        <!-- right side -->
+        <div>
+          <menu class="flex space-x-8">
+            <a href="?">
+              <li class="text-primary-100">Home</li>
+            </a>
+            <a href="?">
+              <li>Brouse by</li>
+            </a>
+            <a href="?">
+              <li>Stories</li>
+            </a>
+            <a href="?">
+              <li>Agents</li>
+            </a>
+          </menu>
+        </div>
+      </nav>
+    </header>
+    <main>
+       <!-- divider -->
+       <div class="w-full h-[1px] bg-secondary-100"></div>
     <!-- Montigo Resort section -->
     <section class="wrapper py-5">
       <div class="grid grid-cols-2">
@@ -74,13 +106,53 @@
             for design: enabling Singapore to use design for economic growth and
             to make lives better.
           </p>
+
+          <div class="py-6 w-full max-w-[658px] flex flex-col gap-4">
+            <div class="flex gap-14">
+              <div>
+                <img src="./public/asset/ic_bedroom.svg" alt="ic_bedroom" class="size-38 object-cover">
+                <p class="text-lg leading-[30.6px] text-secondary"><strong class="text-black">3 </strong>bedrooms</p>
+              </div>
+              <div>
+                <img src="./public/asset/livingroom.svg" alt="livingroom" class="size-38 object-cover">
+                <p class="text-lg leading-[30.6px] text-secondary"><strong class="text-black">1 </strong>living room</p>
+              </div>
+              <div>
+                <img src="./public/asset/bathroom.svg" alt="bathroom" class="size-38 object-cover">
+                <p class="text-lg leading-[30.6px] text-secondary"><strong class="text-black">3 </strong>bathroom</p>
+              </div>
+             
+              <div>
+                <img src="./public/asset/dining-room.svg" alt="dining-room" class="size-38 object-cover">
+                <p class="text-lg leading-[30.6px] text-secondary"><strong class="text-black">1 </strong>dining room</p>
+              </div>
+            </div>
+            <div class="flex gap-14">
+              <div>
+                <img src="./public/asset/wifi.svg" alt="wifi" class="size-38 object-cover">
+                <p class="text-lg leading-[30.6px] text-secondary"><strong class="text-black">10 </strong>mbp/s</p>
+              </div>
+              <div>
+                <img src="./public/asset/ac.svg" alt="ac" class="size-38 object-cover">
+                <p class="text-lg leading-[30.6px] text-secondary"><strong class="text-black">2 </strong> units ready</p>
+              </div>
+              <div>
+                <img src="./public/asset/refrigerators.svg" alt="refrigerators" class="size-38 object-cover">
+                <p class="text-lg leading-[30.6px] text-secondary"><strong class="text-black">2 </strong>refrigerators</p>
+              </div>
+              <div>
+                <img src="./public/asset/television.svg" alt="television" class="size-38 object-cover">
+                <p class="text-lg leading-[30.6px] text-secondary"><strong class="text-black">4 </strong>television</p>
+              </div>
+            </div>
+          </div>
           </div>
 
 
           <div class="flex-1 border  p-8">
-            <h4>Start Booking</h4>
-            <p>$280 per night</p>
-            <p>How long you will stay?</p>
+            <h4 class="text-2xl leading-[36px] font-medium text-primary py-6">Start Booking</h4>
+            <p class="text-[36px] leading-[54px] font-medium"><span class="text-green">$280 </span>per night</p>
+            <p class="text-lg leading-[30px] pt-6">How long you will stay?</p>
   
             <div class="flex">
                <div class="text-white text-center w-full max-w-[45px] h-[51.56px] bg-[#E74C3C]">
@@ -94,13 +166,13 @@
                 
            
            
-                <p class="w-full max-w-[45px] h-[51.56px] bg-[#1ABC9C] text-white text-center">+</p>
+                <p class="w-full max-w-[45px] h-[51.56px] bg-green text-white text-center">+</p>
             
             </div>
 
-            <div>
+            <div class="py-6">
               <h4>Pick a Date</h4>
-              <div class="bg-[#F5F6F8]  flex w-full max-w-[320px] h-[52px]">
+              <div class="bg-[#F5F6F8]  flex  h-[52px]">
               <div class="bg-primary w-[45px] h-[51.56px] flex items-center justify-center">
                 <img src="./public/asset/ic_calendar.svg" alt="">
               </div>
@@ -108,6 +180,13 @@
                 <p>20 Jan - 22 Jan</p>
               </div>
             </div>
+            <p class="text-lg leading-[30.6px] text-secondary">You will pay <strong class="text-black">$480 USD</strong> for <strong class="text-black">2 night</strong></p>
+            </div>
+
+            
+
+            <div>
+              <button class="btn !rounded-none">Continue Book</button>
             </div>
   
           </div>
@@ -119,7 +198,175 @@
       
       </section>
 
-    
+       <!-- Things to do section -->
+       <section class="wrapper py-10">
+        <h1 class="text-[1.5rem] leading-[36px] font-medium text-primary mb-6">
+          Things to do
+        </h1>
+        <div class="grid grid-cols-4 space-x-6">
+          <div>
+            <img
+              src="./public/asset/nature.svg"
+              alt="nature"
+              class="rounded-lg w-full h-auto object-cover"
+            />
+            <h2 class="text-xl leading-[30px] font-medium text-primary pt-10">
+              Tabby Town
+            </h2>
+            <p class="text-[15px] leading-[22.5px] font-light text-secondary">
+             Nature
+            </p>
+          </div>
+
+          <div>
+            <img
+              src="./public/asset/Dog-Clubs.svg"
+              alt="Dog-Clubs"
+              class="rounded-lg w-full h-auto object-cover"
+            />
+            <h2 class="text-xl leading-[30px] font-medium text-primary pt-10">
+              Dog Clubs
+            </h2>
+            <p class="text-[15px] leading-[22.5px] font-light text-secondary">
+              pool
+            </p>
+          </div>
+          <div>
+            <img
+              src="./public/asset/Labour-wait.svg"
+              alt="Labour-wait"
+              class="rounded-lg w-full h-auto object-cover"
+            />
+           
+            <h2 class="text-xl leading-[30px] font-medium text-primary pt-10">
+              Labour and Wait
+            </h2>
+            <p class="text-[15px] leading-[22.5px] font-light text-secondary">
+              Shopping
+            </p>
+          </div>
+          <div>
+            <img
+              src="./public/asset/Snorkeling.svg"
+              alt="Snorkeling"
+              class="rounded-lg w-full h-auto object-cover"
+            />
+
+            <h2 class="text-xl leading-[30px] font-medium text-primary pt-10">
+              Snorkeling
+            </h2>
+            <p class="text-[15px] leading-[22.5px] font-light text-secondary">
+              Beach
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Happy Famiy section -->
+      <section class="w-full max-w-[1076px] py-6 mx-auto">
+        <div class="flex space-x-10">
+          <div>
+            <img
+              src="./public/asset/Happy-Famiy2.svg"
+              alt="Happy-Famiy"
+              class="w-[405px] h-[541px] object-cover"
+            />
+          </div>
+
+          <div
+            class="w-full max-w-[615px] flex flex-col items-start justify-center space-y-6"
+          >
+            <h4 class="text-2xl leading-[36px] font-medium text-primary">
+              Happy Famiy
+            </h4>
+            <img
+              src="./public/asset/Rating.svg"
+              alt="review"
+              class="w-[108] h-[34px] object-cover"
+            />
+            <h1 class="text-[2rem] leading-[48px] text-primary">
+              As a wife I can pick a great trip with 
+my own lovely family ... thank you!
+            </h1>
+            <p class="text-lg leading-[27px] text-primary">
+              Megan, Product Manager
+            </p>
+            <button
+              class="bg-primary-100 py-2 px-4 text-white cursor-pointer outline-none border-none rounded-md shadow-2xl"
+            >
+              Read our stories
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- divider -->
+      <div class="w-full h-[1px] bg-secondary-100"></div>
+
+      <!-- footer section -->
+       <footer class="w-full max-w-[1076px] py-10 mx-auto">
+         <div class="grid grid-cols-4 space-x-10">
+           <div>
+             <h1 class="text-2xl leading-[36px] font-medium">
+               <span class="text-primary-100">Stay</span>cation.
+             </h1>
+             <p class="text-lg leading-[27px] text-secondary">We kaboom your beauty holiday instantly and memorable.</p>
+           </div>
+
+
+           <div>
+             <h4 class="text-lg leading-[27px] text-primary">For Beginners</h4>
+             <menu class="text-base font-light text-secondary">
+               <a href="#">
+                 <li>New Account</li>
+               </a>
+               <a href="#">
+                 <li>Book a Room</li>
+               </a>
+               <a href="#">
+                 <li>Payments</li>
+               </a>
+             </menu>
+           </div>
+
+           <div>
+             <h4 class="text-lg leading-[27px] text-primary">Explore Us</h4>
+             <menu class="text-base font-light text-secondary">
+               <a href="#">
+                 <li>About</li>
+               </a>
+               <a href="#">
+                 <li>Privacy Policy</li>
+               </a>
+               <a href="#">
+                 <li>Terms & <br> Conditions</li>
+               </a>
+             </menu>
+           </div>
+
+           <div>
+             <h4 class="text-lg leading-[27px] text-primary">Getting Touch</h4>
+             <menu class="text-base font-light text-secondary">
+               <a href="#">
+                 <li>support@stayctation.id</li>
+               </a>
+               <a href="#">
+                 <li>021 - 2208 - 1996</li>
+               </a>
+               <a href="#">
+                 <li>Staycation Oy, Jakarta</li>
+               </a>
+             </menu>
+           </div>
+
+
+
+         </div>
+
+         <p class="text-base font-light text-secondary text-center pt-10">Copyright 2019 . All rights reserved . Staycation</p>
+       </footer>
+
+      </main>
     </section>
   </body>
 </html>
