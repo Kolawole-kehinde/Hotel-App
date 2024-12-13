@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+  integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link rel="stylesheet" href="./css/style.css" />
+  <title>Payment Page</title>
+</head>
+<body>
+  <header class="py-6">
+    <div class="flex items-center justify-center">
+      <h1 class="text-2xl leading-[36px] font-medium">
+        <span class="text-primary-100">Stay</span>cation.
+      </h1>
+    </div>
+  </header>
+  <main>
+
+     <!-- divider -->
+     <div class="w-full h-[1px] bg-secondary-100"></div>
+ 
+     <section class="wrapper p-6">
+      <div class="flex items-center justify-center">
+        <!-- Step 1 -->
+        <div class="flex flex-col items-center">
+          <div class="w-10 h-10 rounded-full flex items-center justify-center bg-green">
+            <div class="w-8 h-8 flex items-center justify-center rounded-full bg-green text-gray-400 font-bold">
+              <img src="./public/asset/Check.svg" alt="Check-icon" class="w-[22px] h-[17px] object-cover">
+            </div>
+          </div>
+        </div>
+        <!-- Line -->
+        <div class="w-16 h-1 bg-gray-300"></div>
+    
+        <!-- Step 2 -->
+        <div class="flex flex-col items-center">
+          <div class="flex items-center justify-center w-10 h-10 rounded-full bg-gray-300 text-gray-400 font-bold">
+            2
+          </div>
+        </div>
+        <!-- Line -->
+        <div class="w-16 h-1 bg-gray-300"></div>
+    
+        <!-- Step 3 -->
+        <div class="flex flex-col items-center">
+          <div class="flex items-center justify-center w-10 h-10 rounded-full bg-gray-300 text-gray-400 font-bold">
+            3
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center py-6">
+        <h1 class="text-[2.625rem] leading-[63px] font-semibold text-primary">Payment</h1>
+        <p class="text-lg font-light text-secondary">Kindly follow the instruction below</p>
+      </div>
+    </section>
+
+    <!-- Payment Information section -->
+     <section class="wrapper py-4 flex flex-col items-center justify-center">
+      <div class="flex  space-x-20">
+        <div class="mr-10 space-y-6">
+           <p class="text-lg leading-[30.6px]">Transfer Payment:</p>
+           <p class="text-base leading-[27.2px]">Tax: 10%</p>
+           <p class="text-base leading-[27.2px]">Sub total: $480 USD</p>
+           <p class="text-base leading-[27.2px]">Total: $580 USD</p>
+
+           <div class="flex space-x-2">
+              <div>
+                <img src="./public/asset/bca-logo.svg" alt="bca-logo">
+              </div>
+              <div class="space-y-4">
+                <p class="text-lg leading-[30.6px]">Bank Central Asia</p>
+                <p class="text-lg leading-[30.6px]">2208 1996</p>
+                <p class="text-lg leading-[30.6px]">Tesla Inc.</p>
+              </div>
+           </div>
+           <div class="flex space-x-2">
+              <div>
+                <img src="./public/asset/Mandin-logo.svg" alt="Mandin-logo">
+              </div>
+              <div class="space-y-4">
+                <p class="text-lg leading-[30.6px]">Bank Central Asia</p>
+                <p class="text-lg leading-[30.6px]">2208 1996</p>
+                <p class="text-lg leading-[30.6px]">Tesla Inc.</p>
+              </div>
+           </div>
+
+
+        </div>
+       <!-- divider -->
+     <div class="h-[502px] border-[2px] border-secondary"></div>
+        
+      <!-- input -->
+       <div>
+        <div>
+        <label for="Upload" class="text-lg leading-[30.6px]">Upload Transfer Proof</label>
+        <div class="pt-2">
+        <input type="text" name="Upload" id="Upload" placeholder="Browse a file ..." class="w-[320px] bg-secondary-300 p-4">
+      </div>
+        </div>
+        <div class="pt-2">
+        <label for="bank" class="text-lg leading-[30.6px]">Bank Origin</label>
+        <div class="pt-2">
+        <input type="text" name="bank" id="bank" placeholder="Please type here ..." class="w-[320px] bg-secondary-300 p-4 ">
+      </div>
+        </div>
+        <div class="pt-2">
+        <label for="sender" class="text-lg leading-[30.6px]">Sender Name</label>
+        <div class="pt-2">
+        <input type="text" name="sender" id="sender" placeholder="Please type here ..." class="w-[320px] bg-secondary-300 p-4 ">
+      </div>
+        </div>
+        
+      </div>
+
+
+      </div>
+      <div class=" pt-10">
+        <button class="bg-secondary w-[300px] h-[50px] text-gray-500 rounded-sm shadow-2xl text-xl leading-[30.6px]  mt-4">Cancel</button>
+      </div>
+     </section>
+    
+</main>
+</body>
+</html>
